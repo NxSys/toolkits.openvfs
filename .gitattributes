@@ -1,1 +1,22 @@
 * text=auto !eol
+F2Dev/Utils/OpenVFS/Commands/BaseCommand.php -text
+F2Dev/Utils/OpenVFS/Commands/MkdirCmd.php -text
+F2Dev/Utils/OpenVFS/Commands/SolidcopyCmd.php -text
+F2Dev/Utils/OpenVFS/Commands/ToolApplication.php -text
+F2Dev/Utils/OpenVFS/ExceptionType.php -text
+F2Dev/Utils/OpenVFS/Handlers/BaseStorageHandler.php -text
+F2Dev/Utils/OpenVFS/Handlers/BasicRacsStorageHandler.php -text
+F2Dev/Utils/OpenVFS/Handlers/CombinedStorageHandler.php -text
+F2Dev/Utils/OpenVFS/Handlers/LocalFileStorageHandler.php -text
+F2Dev/Utils/OpenVFS/Handlers/MyStorageHandler.php -text
+F2Dev/Utils/OpenVFS/Handlers/StorageHandlerType.php -text
+F2Dev/Utils/OpenVFS/InvalidOperationException.php -text
+F2Dev/Utils/OpenVFS/Manager.php -text
+F2Dev/Utils/OpenVFS/OpenVFS.komodoproject -text
+F2Dev/Utils/OpenVFS/StorageHandlerNotFoundException.php -text
+F2Dev/Utils/OpenVFS/Wrappers/MyStorageStreamWrapper.php -text
+F2Dev/Utils/OpenVFS/bin/fshell.php -text
+F2Dev/Utils/OpenVFS/bin/solidcopy.php -text
+F2Dev/Utils/OpenVFS/index.php -text
+F2Dev/Utils/OpenVFS/readme.txt -text
+F2Dev/Utils/OpenVFS/tests/BorkedStreamWrapper.php -text
