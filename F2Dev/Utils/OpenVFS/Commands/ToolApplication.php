@@ -14,7 +14,6 @@ class ToolApplication extends Application
 	 * Constructor
      * @param string $name     The name of the application
      * @param string $version  The version of the application
-     * @param string $sCmdName The command the application is based on
      * @param string Command   An instance of the command the application is based on
 	 */
 	public function __construct($name = 'UNKNOWN', $version = 'UNKNOWN',

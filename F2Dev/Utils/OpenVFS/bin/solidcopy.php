@@ -39,7 +39,7 @@ if(!class_exists('OpenVFS\Manager'))
 	spl_autoload_register();
 }
 
-$oApp=new OpenVFS\Commands\ToolApplication('Solidcopy','1.0a',
-										   new OpenVFS\Commands\SolidcopyCmd);
+$oApp=new \ToolApplication('Solidcopy','1.0a',
+						   new OpenVFS\Commands\SolidcopyCmd);
 $oApp->setCatchExceptions(false);
 $oApp->run();
