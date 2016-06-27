@@ -68,7 +68,7 @@ class Manager
 				'StorageHandler must be a valid name or StorageHandlerType, not '.gettype($StorageHandlerType));
 		}
 		$sNameofSH=sprintf('%s\Handlers\%sStorageHandler',
-						   __NAMESPACE__,$oStorageHandler);
+						   __NAMESPACE__, $oStorageHandler);
 		if(!array_key_exists($sNameofSH, self::$aLoadedHadlers))
 		{
 			//autoload
@@ -189,7 +189,7 @@ class Manager
 		//if(!)
 		//specified options take priority over inline opts
 		$aHandlerOpts=array_merge($aInlineOpts, $aOpts);
-		
+
 		//look for exsisting storage handler
 		$sStorageHanlerName='LocalFile';
 
