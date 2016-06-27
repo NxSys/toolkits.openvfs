@@ -1,4 +1,4 @@
 <?php
-namespace F2Dev\Utils\OpenVFS\Handlers;
+namespace NxSys\Toolkits\OpenVFS\Handlers;
 
 interface StorageHandlerType {}

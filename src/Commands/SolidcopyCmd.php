@@ -20,9 +20,9 @@
  */
 
 //Local Namespace
-namespace F2Dev\Utils\OpenVFS\Commands;
+namespace NxSys\Toolkits\OpenVFS\Commands;
 
-use F2Dev\Utils\OpenVFS;
+use NxSys\Toolkits\OpenVFS;
 
 	//Framework Namespaces
 use Symfony\Component\Console as SfConsole,
@@ -129,7 +129,7 @@ class SolidcopyCmd extends BaseCommand
 
 		//get OpenVFS loaded
 		new OpenVFS\Manager;
-		if(!class_exists('F2Dev\Utils\OpenVFS\Manager'))
+		if(!class_exists('NxSys\Toolkits\OpenVFS\Manager'))
 		{
 			$oPut->writeln('OpenVFS can not be found. Please verify the requirements in the documentation.');
 			return self::RET_MISCERR;

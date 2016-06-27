@@ -1,5 +1,5 @@
 <?php
-namespace F2Dev\Utils\OpenVFS;
+namespace NxSys\Toolkits\OpenVFS;
 
 // OpenVFS Version
 const Version= '1.0-alpha';
@@ -44,9 +44,9 @@ class Manager
 	/**
 	 * Finds a storage handler
 	 *
-	 * @param \F2Dev\Utils\OpenVFS\Handlers\BaseStorageHandler|multitype $oStorageHandler
+	 * @param \NxSys\Toolkits\OpenVFS\Handlers\BaseStorageHandler|multitype $oStorageHandler
 	 * @param array $aStorageHandlerOptions
-	 * @return \F2Dev\Utils\OpenVFS\Handlers\BaseStorageHandler|multitype:
+	 * @return \NxSys\Toolkits\OpenVFS\Handlers\BaseStorageHandler|multitype:
 	 */
 	static function loadStorageHandler($oStorageHandler, array $aStorageHandlerOptions)
 	{
@@ -84,7 +84,7 @@ class Manager
 			//}
 			//init handler
 				//@todo see if o/w handlers is a bug....
-			/** @var \F2Dev\Utils\OpenVFS\Handlers\BaseStorageHandler */
+			/** @var \NxSys\Toolkits\OpenVFS\Handlers\BaseStorageHandler */
 			$oStorageHandler=new $sNameofSH;
 			$oStorageHandler->setConfig($aStorageHandlerOptions);
 			$oStorageHandler->register();

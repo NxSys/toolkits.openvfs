@@ -19,7 +19,7 @@
  * @version $Revision$
  */
 
-namespace F2Dev\Utils\OpenVFS\Handlers;
+namespace NxSys\Toolkits\OpenVFS\Handlers;
 
 class MyStorageHandler extends BaseStorageHandler
 {
@@ -33,6 +33,6 @@ class MyStorageHandler extends BaseStorageHandler
 
 	public function getStreamWrapperName()
 	{
-		return 'F2Dev\Utils\OpenVFS\Wrappers\\'.$this->sStreamWrapperClass;
+		return 'NxSys\Toolkits\OpenVFS\Wrappers\\'.$this->sStreamWrapperClass;
 	}
 }

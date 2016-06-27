@@ -1,7 +1,7 @@
 <?php
 
-namespace F2Dev\Utils\OpenVFS;
-use F2Dev\Utils\OpenVFS\ExceptionType;
+namespace NxSys\Toolkits\OpenVFS;
+use NxSys\Toolkits\OpenVFS\ExceptionType;
 
 /**
  * The point of this is to preserve/integrate the class type hireacrhy since

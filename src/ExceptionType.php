@@ -1,5 +1,5 @@
 <?php
-namespace F2Dev\Utils\OpenVFS;
+namespace NxSys\Toolkits\OpenVFS;
 
 /**
  * Base Exception class for this library

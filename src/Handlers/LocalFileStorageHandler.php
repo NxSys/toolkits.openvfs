@@ -21,7 +21,7 @@
  * @version $Revision$
  */
 
-namespace F2Dev\Utils\OpenVFS\Handlers;
+namespace NxSys\Toolkits\OpenVFS\Handlers;
 
 /**
  *

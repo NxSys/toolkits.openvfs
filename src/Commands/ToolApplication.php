@@ -1,6 +1,6 @@
 <?php
 
-namespace F2Dev\Utils\OpenVFS\Commands;
+namespace NxSys\Toolkits\OpenVFS\Commands;
 
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Input\InputInterface;

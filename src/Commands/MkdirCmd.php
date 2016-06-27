@@ -20,7 +20,7 @@
  */
 
 //Local Namespace
-namespace F2Dev\Utils\OpenVFS\Commands;
+namespace NxSys\Toolkits\OpenVFS\Commands;
 
 	//Framework Namespaces
 use Symfony\Component\Console as SfConsole;

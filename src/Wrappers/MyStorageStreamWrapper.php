@@ -18,7 +18,7 @@
  *
  * @version $Revision$
  */
-namespace F2Dev\Utils\OpenVFS\Wrappers;
+namespace NxSys\Toolkits\OpenVFS\Wrappers;
 
 
 class MyStorageStreamWrapper

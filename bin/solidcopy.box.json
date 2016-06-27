@@ -1,0 +1,9 @@
+{
+	"algorithm": "SHA512",
+	//"base-path":
+	//"blacklist": 
+	"compression": "GZ", //more likely to be around?
+	"directories": [
+		"..\\..\\..\\..\\"
+	]
+}

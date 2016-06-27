@@ -1,0 +1,19 @@
+{
+    "name": "nxsys/toolkits.openvfs",
+    "description": "OpenVFS",
+    "autoload":
+    {
+        "psr-4": { "NxSys\\Toolkits\\OpenVFS\\": "src" }
+    },
+    "require": {
+        "league/flysystem": "1.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nexus Systems Inc.",
+            "email": "os@nxsysts.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}

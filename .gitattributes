@@ -1,7 +1,11 @@
 * text=auto !eol
 /OpenVFS.komodoproject -text
 bin/fshell.php -text
+bin/solidcopy.box.json -text
 bin/solidcopy.php -text
+/composer.json -text
+/composer.lock -text
+/readme.txt -text
 src/Commands/BaseCommand.php -text
 src/Commands/MkdirCmd.php -text
 src/Commands/SolidcopyCmd.php -text
